@@ -11,7 +11,7 @@
                WithOut Lock:                       24907 ms
                WithOut Lock + getProcessing_FALSE: 13656 ms
      
-      5 Threads:
+     5 Threads:
                With Lock + sleep 23 + tick 45:     136875 ms
                With Lock + tick 45:                68938 ms
                With Lock:                          25281 ms
