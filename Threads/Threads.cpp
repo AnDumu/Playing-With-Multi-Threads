@@ -284,7 +284,7 @@ public:
 
     ~cOMP()
     {
-        for (int i = 0; i < this->pokemons_.size(); i++)
+        for (size_t i = 0; i < this->pokemons_.size(); i++)
         {
             delete this->pokemons_[i];
             this->pokemons_[i] = NULL;
@@ -307,7 +307,7 @@ public:
             pokemon = info[0];
             type = info[3];
 
-            for (int i = 0; i < this->pokemons_.size(); i++)
+            for (size_t i = 0; i < this->pokemons_.size(); i++)
             {
                 if (M_Lcase(this->pokemons_[i]->getName()) == M_Lcase(pokemon))
                 {
@@ -490,7 +490,7 @@ public:
             
             this->erasing_ = FALSE;
 
-            for (int i = 0; i < this->processingEvents_.size(); i++)
+            for (size_t i = 0; i < this->processingEvents_.size(); i++)
             {
                 title = "ProcessingEvents: " + std::to_string(this->processingEvents_.size()) + " - FailedEvents: " + std::to_string(this->failedEvents_.size()) + " - PendingEvents: " + std::to_string(this->pendingEvents_.size());
                 SetConsoleTitleA(title.c_str());
@@ -603,7 +603,7 @@ protected:
 
             this->erasing_ = FALSE;
 
-            for (int i = 0; i < this->processingEvents_.size(); i++)
+            for (size_t i = 0; i < this->processingEvents_.size(); i++)
             {
                 title = "ProcessingEvents: " + std::to_string(this->processingEvents_.size()) + " - FailedEvents: " + std::to_string(this->failedEvents_.size()) + " - PendingEvents: " + std::to_string(this->pendingEvents_.size());
                 SetConsoleTitleA(title.c_str());
