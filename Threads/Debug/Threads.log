@@ -1,0 +1,11 @@
+﻿  Threads.cpp
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1037,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1048,32): warning C4101: 'e': unreferenced local variable
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1205,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1299,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1600,6): warning C4102: '_pass': unreferenced label
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1601,11): warning C4101: 'dwThreadIdArray': unreferenced local variable
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1602,12): warning C4101: 'hThreadArray': unreferenced local variable
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1274,32): warning C4101: 'e': unreferenced local variable
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(1133): message : see reference to function template instantiation 'BOOL cOMP::future_is_ready<void>(std::future<void> &)' being compiled
+  Threads.vcxproj -> C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Debug\Threads.exe
