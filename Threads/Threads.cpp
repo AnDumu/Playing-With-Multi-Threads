@@ -214,7 +214,7 @@ DWORD WINAPI PokemonProcessThread(LPVOID lpParam)
     return 0;
 }
 
-class cOMP //Organización Mundial de los Pokemons, pero ésta no es como la OMS que da información falsa
+class cOMP //OrganizaciÃ³n Mundial de los Pokemons, pero Ã©sta no es como la OMS que da informaciÃ³n falsa
 {
 public:
     cOMP(BYTE max_threads, BOOL windows)
@@ -447,7 +447,7 @@ public:
         return votes;
     }
 
-    BOOL getEraseing()
+    BOOL getErasing()
     {
         return this->erasing_;
     }
