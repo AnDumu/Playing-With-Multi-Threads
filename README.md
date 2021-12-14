@@ -1,6 +1,6 @@
 # Playing-With-Threads
 
-    * 7 Threads:
+     7 Threads:
                With Lock + sleep 23 + tick 45:     137015 ms
                With Lock + tick 45:                68828 ms
                With Lock:                          24938 ms
@@ -31,7 +31,7 @@
                WithOut Lock + sleep 23 + tick 45:  138312 ms
                WithOut Lock + tick 45:             68860 ms
                WithOut Lock:                       25187 ms
-    *           WithOut Lock + getProcessing_FALSE: 12547 ms
+               WithOut Lock + getProcessing_FALSE: 12547 ms
 
 Threads were created to perform various actions in different code sections/regions, ofc you can try to use many threads on the same region code to process it faster.
 If you need the lock to prevent crash, it means that you are doing it wrong.
