@@ -1,4 +1,4 @@
-# Playing-With-Threads
+# Playing-With-Multi-Threads
 
      7 Threads:
                With Lock + sleep 23 + tick 45:     137015 ms
