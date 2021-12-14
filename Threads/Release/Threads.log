@@ -1,0 +1,10 @@
+﻿  Threads.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\ppltasks.h(1571,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(287,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(310,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(321,32): warning C4101: 'e': unreferenced local variable
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(493,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(606,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(569,32): warning C4101: 'e': unreferenced local variable
+C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Threads\Threads.cpp(420): message : see reference to function template instantiation 'BOOL cOMP::future_is_ready<void>(std::future<void> &)' being compiled
+  Threads.vcxproj -> C:\Users\ANDUMU\Documents\Visual Studio 2019\Projects\Threads\Release\Threads.exe
