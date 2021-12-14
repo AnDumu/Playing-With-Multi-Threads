@@ -33,5 +33,5 @@
                WithOut Lock:                       25187 ms
                WithOut Lock + getProcessing_FALSE: 12547 ms
 
-Threads were created to perform various actions in different code sections/regions, ofc you can try to use many threads on the same region code to process it faster.
-If you need the lock to prevent crash, it means that you are doing it wrong.
+Threads were created to perform various actions on different code sections/regions, ofc you can try to use many threads on the same region code to process it faster.
+If you need the lock/atomic to prevent crash, it means that you are doing it wrong.
